@@ -6,7 +6,7 @@ export default function HeroSection() {
       
       {/* Background Image */}
       <img
-        src="/assets/images/HeroImg.png" // replace with your hero image
+        src="/assets/images/Hero_img.png" // replace with your hero image
         alt="Dermatology & Skin Care"
         className="absolute inset-0 w-full h-full object-cover"
       />
