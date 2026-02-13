@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-[90vh] flex items-center mt-12 sm:mt-20">
+    <section id="home" className="relative w-full min-h-[90vh] flex items-center mt-12 sm:mt-20">
       
       {/* Background Image */}
       <img
@@ -31,13 +31,31 @@ export default function HeroSection() {
 
           {/* Button */}
           <div className="mt-8">
-            <button className="group flex items-center bg-blue-700 text-white px-6 py-4 font-medium tracking-wide hover:bg-blue-800 hover:text-white transition">
-              MAKE AN APPOINTMENT
-              <span className="ml-4 transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </button>
-          </div>
+  <button
+    onClick={() => {
+      const section = document.getElementById("contact");
+      if (section) {
+        const yOffset = -100; // adjust if needed
+        const y =
+          section.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+
+        window.scrollTo({
+          top: y,
+          behavior: "smooth",
+        });
+      }
+    }}
+    className="group flex items-center bg-blue-700 text-white px-6 py-4 font-medium tracking-wide hover:bg-blue-800 hover:text-white transition"
+  >
+    MAKE AN APPOINTMENT
+    <span className="ml-4 transition-transform group-hover:translate-x-1">
+      →
+    </span>
+  </button>
+</div>
+
 
         </div>
       </div>

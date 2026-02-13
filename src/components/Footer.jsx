@@ -91,8 +91,8 @@ export default function Footer() {
             <li>Contact Us</li>
             <li>How We Work</li>
             <li>FAQs</li>
-            <li>Online Shop</li>
-            <li>Delivery Information</li>
+            <li>T&C</li>
+            <li>Success Stories</li>
           </ul>
         </div>
 
@@ -108,7 +108,8 @@ export default function Footer() {
 
               <li>
                 <span className="text-white">Phone:</span><br />
-                +91 97766 71509
+                +91 97766 71509<br />
+                +91 94384 31918
               </li>
 
               <li>

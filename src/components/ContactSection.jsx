@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <section className="w-full bg-gray-100">
+    <section id="contact" className="w-full bg-gray-100">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row">
         
         {/* Map Section */}

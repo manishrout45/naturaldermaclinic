@@ -28,7 +28,7 @@ export default function GallerySection() {
   };
 
   return (
-    <section className="w-full bg-[#eef6f7] py-20">
+    <section id="gallery" className="w-full bg-[#eef6f7] py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
 
         {/* HEADING */}
@@ -97,7 +97,7 @@ export default function GallerySection() {
         {/* BUTTON */}
         <div className="mt-14">
           <button className="bg-yellow-300 px-8 py-4 text-sm font-semibold text-gray-900 hover:bg-yellow-400 transition">
-            VISIT OUR GALLERY
+            A Glimpse of Our Care
           </button>
         </div>
 

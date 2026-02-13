@@ -33,7 +33,7 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="relative w-full py-20 overflow-hidden">
+    <section id="testimonial" className="relative w-full py-20 overflow-hidden">
       {/* BACKGROUND IMAGE */}
       <img
         src="/assets/images/TestimonialbgImg.png"
